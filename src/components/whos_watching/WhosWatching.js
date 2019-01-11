@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 
 import * as actions from './../../redux/actions/actions'
 
-import Logo from './../general/Logo'
+import TopBar from './../general/TopBar'
 import Profile from './Profile'
 
 const Page = styled.section`
@@ -22,18 +22,6 @@ justify-content: center;
 
   `
 
-const TopBar = styled.div`
-box-sizing: border-box;
-z-index: 100;
-align-items: center;
-display: flex;
-justify-content: space-between;
-position: absolute;
-width: 100vw;
-padding: 25px;
-
-
-`
 const Container = styled.div`
 padding-top: 50px;
 margin: 0 auto;
@@ -80,22 +68,24 @@ font-size: .9em;
 `
 
 export class WhosWatching extends React.Component {
-  componentWillMount () {}
+  componentWillMount () {
+   
+    
+  }
   render () {
+    let loc = this.props.location.pathname.split('/')[1];
     return (
       <Page>
-        <TopBar>
-          <Logo />
-        </TopBar>
+        <TopBar location = {loc}/>
 
         <Container>
           <Title>Who's Watching? </Title>
 
           <ProfileContainer>
-            <Profile img = 'rick.jpg' userName ="Rick"/>
-            <Profile img = 'morty.png' userName ="Morty"/>
-            <Profile img = 'meeseeks.jpg' userName ="Mr. Meeseeks"/>
-            <Profile />
+            <Profile img='rick.jpg' userName='Rick' />
+            <Profile img='morty.png' userName='Morty' />
+            <Profile img='meeseeks.jpg' userName='Mr. Meeseeks' />
+            <Profile userName='Add Profile' />
 
           </ProfileContainer>
 

@@ -41,7 +41,7 @@ export default App
 const Page = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: center;
 max-width: 100vw;
 margin: 0 auto;
 min-height: 100vh;

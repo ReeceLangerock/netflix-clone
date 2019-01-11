@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WhosWatching matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WhosWatching
+    location={
+      Object {
+        "pathname": "test",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <TopBar
+          location={undefined}
+        />,
+        <styled.div>
+          <styled.div>
+            Who's Watching? 
+          </styled.div>
+          <styled.div>
+            <Profile
+              img="rick.jpg"
+              userName="Rick"
+            />
+            <Profile
+              img="morty.png"
+              userName="Morty"
+            />
+            <Profile
+              img="meeseeks.jpg"
+              userName="Mr. Meeseeks"
+            />
+            <Profile
+              userName="Add Profile"
+            />
+          </styled.div>
+          <styled.span>
+            Manage Profiles
+          </styled.span>
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "location": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.div>
+              Who's Watching? 
+            </styled.div>,
+            <styled.div>
+              <Profile
+                img="rick.jpg"
+                userName="Rick"
+              />
+              <Profile
+                img="morty.png"
+                userName="Morty"
+              />
+              <Profile
+                img="meeseeks.jpg"
+                userName="Mr. Meeseeks"
+              />
+              <Profile
+                userName="Add Profile"
+              />
+            </styled.div>,
+            <styled.span>
+              Manage Profiles
+            </styled.span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Who's Watching? ",
+            },
+            "ref": null,
+            "rendered": "Who's Watching? ",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Profile
+                  img="rick.jpg"
+                  userName="Rick"
+                />,
+                <Profile
+                  img="morty.png"
+                  userName="Morty"
+                />,
+                <Profile
+                  img="meeseeks.jpg"
+                  userName="Mr. Meeseeks"
+                />,
+                <Profile
+                  userName="Add Profile"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "img": "rick.jpg",
+                  "userName": "Rick",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "img": "morty.png",
+                  "userName": "Morty",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "img": "meeseeks.jpg",
+                  "userName": "Mr. Meeseeks",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "userName": "Add Profile",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Manage Profiles",
+            },
+            "ref": null,
+            "rendered": "Manage Profiles",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <TopBar
+            location={undefined}
+          />,
+          <styled.div>
+            <styled.div>
+              Who's Watching? 
+            </styled.div>
+            <styled.div>
+              <Profile
+                img="rick.jpg"
+                userName="Rick"
+              />
+              <Profile
+                img="morty.png"
+                userName="Morty"
+              />
+              <Profile
+                img="meeseeks.jpg"
+                userName="Mr. Meeseeks"
+              />
+              <Profile
+                userName="Add Profile"
+              />
+            </styled.div>
+            <styled.span>
+              Manage Profiles
+            </styled.span>
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "location": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div>
+                Who's Watching? 
+              </styled.div>,
+              <styled.div>
+                <Profile
+                  img="rick.jpg"
+                  userName="Rick"
+                />
+                <Profile
+                  img="morty.png"
+                  userName="Morty"
+                />
+                <Profile
+                  img="meeseeks.jpg"
+                  userName="Mr. Meeseeks"
+                />
+                <Profile
+                  userName="Add Profile"
+                />
+              </styled.div>,
+              <styled.span>
+                Manage Profiles
+              </styled.span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Who's Watching? ",
+              },
+              "ref": null,
+              "rendered": "Who's Watching? ",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Profile
+                    img="rick.jpg"
+                    userName="Rick"
+                  />,
+                  <Profile
+                    img="morty.png"
+                    userName="Morty"
+                  />,
+                  <Profile
+                    img="meeseeks.jpg"
+                    userName="Mr. Meeseeks"
+                  />,
+                  <Profile
+                    userName="Add Profile"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "img": "rick.jpg",
+                    "userName": "Rick",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "img": "morty.png",
+                    "userName": "Morty",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "img": "meeseeks.jpg",
+                    "userName": "Mr. Meeseeks",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "userName": "Add Profile",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Manage Profiles",
+              },
+              "ref": null,
+              "rendered": "Manage Profiles",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

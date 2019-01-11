@@ -6,7 +6,9 @@ import logo from './../../assets/logo.svg'
 
 
 const LogoSVG = styled.img`
-height: 40px;
+height: 2.5vw;
+padding: 18px 0;
+min-height: 16px;
 
 
 `
